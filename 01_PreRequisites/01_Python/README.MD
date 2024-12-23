@@ -152,7 +152,7 @@ Python automates cloud management and DevOps workflows with Boto3.
     * [General Format of Classes In Python](7_classes_and_objects.ipynb)
     * [Constructor](7_classes_and_objects.ipynb)
     * [The Self Variable](7_classes_and_objects.ipynb)
-* [Advance Topics]
+* [Advance Topics](8_advance.ipynb)
     * [Lambda Function](8_advance.ipynb)
     * [Modules and Packages](8_advance.ipynb)
     * [Classes](8_advance.ipynb)
