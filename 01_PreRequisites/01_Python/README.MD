@@ -169,3 +169,7 @@ Python automates cloud management and DevOps workflows with Boto3.
         * [Composition](8_advance.ipynb)
         * [Abstraction](8_advance.ipynb)
     * [dir function](8_advance.ipynb)
+
+# References 
+
+[Python Documentation](https://docs.python.org/3.11/)
