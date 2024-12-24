@@ -4,7 +4,7 @@ Pandas is a Python library used for data manipulation and analysis. It provides 
 
 ## Installation 
 
-You can install NumPy by executing `pip install pandas` or `pip3 install pandas`, depending on your Python version.
+You can install Pandas by executing `pip install pandas` or `pip3 install pandas`, depending on your Python version.
 
 
 ## Table of Contents 
