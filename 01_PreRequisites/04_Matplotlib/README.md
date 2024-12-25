@@ -21,4 +21,4 @@ You can install Matplotlib by executing `pip install matplotlib` or `pip3 instal
 ## References 
 
 - [Matplotlib Documentation](https://matplotlib.org/3.5.3/api/_as_gen/matplotlib.pyplot.xlabel.html)
-- [FreeCodeCamp](https://github.com/KeithGalli/matplotlib_tutorial/)
+- [FreeCodeCamp](https://www.freecodecamp.org/)
