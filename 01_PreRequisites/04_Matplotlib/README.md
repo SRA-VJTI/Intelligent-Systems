@@ -12,14 +12,11 @@ You can install Matplotlib by executing `pip install matplotlib` or `pip3 instal
     - [Importing Matplotlib](01_basics.ipynb)
     - [Basic Graph](01_basics.ipynb)
 - [Line Graph](02_LineGraph.ipynb)
-    - [Line Graph](02_LineGraph.ipynb)
 - [Bar Chart And Histogram](03_barChartAndHistogram.ipynb) 
     - [Bar Chart](03_barChartAndHistogram.ipynb)
     - [Histogram](03_barChartAndHistogram.ipynb)
 - [Pie Chart](04_pieChart.ipynb)
-    - [Pie Chart](04_pieChart.ipynb)
 - [Box And Whiskers Chart](05_boxAndWhiskersChart.ipynb)
-    - [Box And Whiskers Chart](05_boxAndWhiskersChart.ipynb)
 
 ## References 
 
