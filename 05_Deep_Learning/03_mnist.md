@@ -412,5 +412,8 @@ From this, we get the idea of backward propagation.
 
 Now that you understand the theory behind how neural networks work, explore this [MNIST example](./codes/mnist.ipynb) to see its practical implementation.
 
+## Acknowledgements
+- Thanks to Grant Sanderson for his awesome series on neural networks.
+
 ## References
 - [3Blue1Brown](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&ab_channel=3Blue1Brown)
