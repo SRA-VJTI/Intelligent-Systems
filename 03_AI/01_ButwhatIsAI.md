@@ -1,3 +1,26 @@
+### Table of Contents
+
+- [But what is AI?](#but-what-is-ai)
+- [How to Measure Computer Machine Intelligence?](#how-to-measure-computer-machine-intelligence)
+    - [Turing Test](#how-the-turing-test-works)
+- [Strong AI Vs Weak AI](#strong-ai-vs-weak-ai)
+- [Categories of AI Systems](#categories-of-ai-systems)
+    - [Reactive Machines](#1-reactive-machines)
+    - [Limited Memory](#2-limited-memory)
+    - [Theory of Mind (Future AI)](#3-theory-of-mind-future-ai)
+    - [Self-aware AI (Future AI)](#4-self-aware-ai-future-ai)
+- [Intelligent Agents](#intelligent-agents)
+    - [Types of Environments](#types-of-environments)
+    - [Types of Agents](#types-of-agents)
+        - [Simple Reflex Agents](#1-simple-reflex-agents)
+        - [Model-Based Agents](#2-model-based-agents)
+        - [Goal-Based Agents](#3-goal-based-agents)
+        - [Utility-Based Agents](#4-utility-based-agents)
+- [Next Steps](#next-steps)
+
+
+
+
 ## But what is AI? 
 
 AI is the branch of computer science that focuses on creating machines, systems or programs capable of performing tasks that typically require human intelligence. These tasks include learning, reasoning, problem-solving, understanding language, and perceiving the world.
@@ -31,22 +54,23 @@ The Turing Test measures **how human-like AI behavior is**, focusing on the abil
 
 ### Categories of AI Systems:
 
-1. **Reactive Machines:**
+#### 1. **Reactive Machines:**
     
-    - These can only react to the present situation. They don’t have memory or learn from the past.
-    - Example: A chess-playing computer that only considers current moves but doesn’t remember past games.
-2. **Limited Memory:**
+- These can only react to the present situation. They don’t have memory or learn from the past.
+- Example: A chess-playing computer that only considers current moves but doesn’t remember past games.
+
+#### 2. **Limited Memory:**
     
-    - These AI systems can remember past data for a short time and use it to make decisions.
-    - Example: Self-driving cars that remember traffic conditions around them.
-3. **Theory of Mind (Future AI):**
+- These AI systems can remember past data for a short time and use it to make decisions.
+- Example: Self-driving cars that remember traffic conditions around them.
+#### 3. **Theory of Mind (Future AI):**
     
-    - These machines would understand emotions, beliefs, and thoughts.
-    - Example: A robot understands someone’s sadness and offers comfort (not yet possible).
-4. **Self-aware AI (Future AI):**
+- These machines would understand emotions, beliefs, and thoughts.
+- Example: A robot understands someone’s sadness and offers comfort (not yet possible).
+####  4. **Self-aware AI (Future AI):**
     
-    - The ultimate goal of AI. These machines would not only think but also have their own consciousness and awareness, just like humans.
-    - Example: A robot that knows it exists (pure science fiction for now).
+- The ultimate goal of AI. These machines would not only think but also have their own consciousness and awareness, just like humans.
+- Example: A robot that knows it exists (pure science fiction for now).
 ### Intelligent Agents:
 
 An **intelligent agent** is anything that can observe its surroundings, take action, and try to reach a goal.  
@@ -76,32 +100,33 @@ Agents operate in different kinds of **environments**:
         Example: A robot arm moving smoothly to grab something.
 #### Types of Agents:
 
-1. **Simple Reflex Agents:**
-    - They act based only on what they see now, ignoring the past.
-    - These agents work on a continuous loop of perception and action. 
-    - Agent perceives the environment with the help of sensors continuously. 
-    - Then, the agent checks the condition-action rules and takes an action based on it. 
-    - These agents cannot learn from past experience. 
-    - Example: A thermostat that turns the heater on or off based on the current temperature.
+#### 1. **Simple Reflex Agents:**
+- They act based only on what they see now, ignoring the past.
+- These agents work on a continuous loop of perception and action. 
+- Agent perceives the environment with the help of sensors continuously. 
+- Then, the agent checks the condition-action rules and takes an action based on it. 
+- These agents cannot learn from past experience. 
+- Example: A thermostat that turns the heater on or off based on the current temperature.
 ![](./images/image1.png)
-2. **Model-Based Agents:**
-    - These have a memory and can understand how things work in the world.
-    - Here, agents first perceive the current state of the environment.
-	 - The agent maintains an internal model of the environment, which includes information about the state of the world, possible actions it can take, and the expected outcome of those actions.  
-	 - Based on current perceptual input and the state of its internal node the agent makes a decision. 
-	 - Then, action is taken and the state of the internal model is also updated. 
-    - Example: A self-driving car that remembers traffic lights and road rules.
+#### 2. **Model-Based Agents:**
+- These have a memory and can understand how things work in the world.
+- Here, agents first perceive the current state of the environment.
+- The agent maintains an internal model of the environment, which includes information about the state of the world, possible actions it can take, and the expected outcome of those actions.  
+- Based on current perceptual input and the state of its internal node the agent makes a decision. 
+- Then, action is taken and the state of the internal model is also updated. 
+- Example: A self-driving car that remembers traffic lights and road rules.
 ![](./images/image2.png)
-3. **Goal-Based Agents:**
-    - These agents have a specific goal in mind and take action to get there.
-    - These agents use planning algorithms. 
-    - Example: A robot navigates a maze to find the exit.
+#### 3. **Goal-Based Agents:**
+- These agents have a specific goal in mind and take action to get there.
+- These agents use planning algorithms. 
+- Example: A robot navigates a maze to find the exit.
 ![](./images/image3.png)
-4. **Utility-Based Agents:**
-    - These agents not only aim to achieve a goal but also choose the **best** way to do it.
-    - These agents provide an extra component of performance measurement, this helps them to find the measure of success at a given state. 
-    - Example: A delivery drone choosing the fastest and safest route to deliver a package.
+#### 4. **Utility-Based Agents:**
+- These agents not only aim to achieve a goal but also choose the **best** way to do it.
+- These agents provide an extra component of performance measurement, this helps them to find the measure of success at a given state. 
+- Example: A delivery drone choosing the fastest and safest route to deliver a package.
 ![](./images/image4.png)
 
+## Next Steps 
 
 -> **Now, it's time to move on to [Assignment 1](./Assignments/Assignment1/). Read the [problem statement here](./Assignments/Assignment1/problem_Statement.md).**
