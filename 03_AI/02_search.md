@@ -1,3 +1,22 @@
+### Table of Contents
+
+*   [Problem-Solving Aspect of AI](#problem-solving-aspect-of-ai)
+*   [State Space Search](#state-space-search)
+*   [Generate and Test](#generate-and-test)
+*   [Algorithms](#algorithms)
+    *   [SimpleSearch1](#simplesearch1)
+    *   [SimpleSearch2](#simplesearch2)
+    *   [SimpleSearch3](#simplesearch3)
+*   [Comparison of DFS and BFS](#comparison-of-dfs-and-bfs)
+*   [Depth Bounded DFS](#depth-bounded-dfs)
+*   [Heuristics](#heuristics)
+*   [Best First Search](#best-first-search)
+*   [Hill Climbing Problem](#hill-climbing-problem)
+*   [Blocks World Problem](#blocks-world-problem)
+    *   [First heuristic function](#first-heuristic-function)
+    *   [Second heuristic function](#second-heuristic-function)
+*   [Next Steps](#next-steps)
+
 # Problem-Solving Aspect of AI
 
 - Agent is a term that is used to refer to problem solver. 
@@ -118,7 +137,7 @@ Example:
 ![](./images/image16.png)
 ![](./images/image17.jpeg)
 Both of these algorithms are blind. That is uninformed. They do a random search. 
-### Comparison of **DFS** and **BFS** based on key aspects:
+### Comparison of **DFS** and **BFS**:
 
 - **Time Complexity**:
     - **DFS**: O($b^m$)(where b is the branching factor, m is the maximum depth).
