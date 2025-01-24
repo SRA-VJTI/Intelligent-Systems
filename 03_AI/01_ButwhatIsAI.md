@@ -17,7 +17,7 @@
         - [Goal-Based Agents](#3-goal-based-agents)
         - [Utility-Based Agents](#4-utility-based-agents)
 - [Next Steps](#next-steps)
-
+- [References](#references)
 
 
 
@@ -130,3 +130,7 @@ Agents operate in different kinds of **environments**:
 ## Next Steps 
 
 -> **Now, it's time to move on to [Assignment 1](./Assignments/Assignment1/). Read the [problem statement here](./Assignments/Assignment1/problem_Statement.md).**
+
+## References 
+- Artificial Intelligence: A Modern Approach by Stuart J. Russell and Peter Norvig
+- A First Course in Artificial Intelligence by Deepak Khemani

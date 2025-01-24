@@ -16,7 +16,7 @@
     *   [First heuristic function](#first-heuristic-function)
     *   [Second heuristic function](#second-heuristic-function)
 *   [Next Steps](#next-steps)
-
+- [References](#references)
 # Problem-Solving Aspect of AI
 
 - Agent is a term that is used to refer to problem solver. 
@@ -137,6 +137,7 @@ Example:
 ![](./images/image16.png)
 ![](./images/image17.jpeg)
 Both of these algorithms are blind. That is uninformed. They do a random search. 
+
 ### Comparison of **DFS** and **BFS**:
 
 - **Time Complexity**:
@@ -153,10 +154,12 @@ Both of these algorithms are blind. That is uninformed. They do a random search.
     - **BFS**: Always finds the optimal solution (in unweighted graphs).
 
 Now, we want an algorithm that is combination of shortest path(BFS) and linear space(DFS). 
+
 ### Depth Bounded DFS
 Here, we put a depth bound. 
 Example: Don't go more than 20 steps or some other depth bound. 
 This algorithm is of linear space(because DFS) but not complete. 
+
 ### Depth Bounded DFS
 - Also known as the iterative deepening algorithm. 
 ![](./images/image18.png)
@@ -180,6 +183,7 @@ We can also keep OPEN as a priority queue. Priority is based on heuristic value.
 - The heuristic function could be calculated differently in different problems. 
 - It could be **Euclidean distance** or **Manhattan distance** in a city map problem. 
 - It could be calculated in some other way in other problems. 
+
 ### Best First Search 
 - Here, the open list is the list of all global states. We sort the list based on heuristics and choose the next node. This next node could be anywhere in the graph, not necessarily in the most downward node.  
 ![](./images/image22.jpeg)
@@ -191,7 +195,8 @@ Properties of Best First Search
 ![](./images/image19.png)
 The search frontier is an indication of the space required. 
 
-- Now, we want an algorithm that takes less space. 
+- Now, we want an algorithm that takes less space.
+
 ### Hill Climbing Problem 
 - Here, say you are blindfolded and you are standing on a slope and asked to reach the top. 
 ![](./images/image20.png)
@@ -199,8 +204,10 @@ The search frontier is an indication of the space required.
 - Modify Open from $OPEN\leftarrow Merge(sort_h(new),Tail(OPEN))$ to 
   $OPEN\leftarrow sort_h(new)$ 
 - Algo:- 
+```
 while next is better than current: 
-	do next $\rightarrow$  Best(MoveGen(current))
+	do next =  Best(MoveGen(current))
+```
 - Unlike Best First Search, which maintained a global list of candidates. This algorithm does a local search.
 - But, Best FS has time and space issues but hill climbing doesn't have that. 
 -> Properties: 
@@ -209,6 +216,7 @@ while next is better than current:
 - Space -> constant
 - time -> linear in ideal cases
 But, this algorithm faces the problem of local maxima. 
+- Terrain which the algorithm is navigating is determined by the heuristic function(Also by the moveGen function)
 ![](./images/image21.png)
 
 ### Blocks World Problem
@@ -221,6 +229,7 @@ Imagine a table with several blocks of the same size. The goal is to rearrange t
 ![](./images/image23.png)
 MoveGen on this:- 
 ![](./images/image24.png)
+
 #### First heuristic function:- 
 - The first function $h_1(n)$ simply checks whether each block is on the correct block, with respect to the final configuration. We add one for every block that is on the block it is supposed to be on, and subtract one for every one that is on athewrong one. 
 - The value of the goal node will be 6.
@@ -250,3 +259,7 @@ Hence,  $h_1$ got stuck in local maxima, and $h_2$ gave global maxima. This show
 
 ### Next Steps:- 
 - Refer to [Assignment2](./Assignments/Assignment2/)
+
+## References 
+- Artificial Intelligence: A Modern Approach by Stuart J. Russell and Peter Norvig
+- A First Course in Artificial Intelligence by Deepak Khemani
